@@ -113,7 +113,6 @@ function App() {
   } 
   return (
     <div>
-      <h1>Hello, World!</h1>
       <div>
         <input type="text" value={activity} onChange={(e)=> setActivity(e.target.value)}></input>
         <button type="submit" onClick={handleAddTask}>Add task</button>
